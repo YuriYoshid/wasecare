@@ -1,4 +1,4 @@
-import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:latlong2/latlong.dart';
 
 class CoolSpot {
   final String name;
@@ -27,17 +27,5 @@ class CoolSpot {
       address: json['address'],
       hasAirCon: json['hasAirCon'] ?? true,
     );
-  }
-
-  // オブジェクトをJSONに変換するメソッド
-  Map<String, dynamic> toJson() {
-    return {
-      'name': name,
-      'type': type,
-      'latitude': location.latitude,
-      'longitude': location.longitude,
-      'address': address,
-      'hasAirCon': hasAirCon,
-    };
   }
 }

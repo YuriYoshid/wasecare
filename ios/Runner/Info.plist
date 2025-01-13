@@ -45,5 +45,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>近くの涼しい場所を探すために位置情報を使用します。</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>近くの涼しい場所を探すために位置情報を使用します。</string>
+
 </dict>
 </plist>
