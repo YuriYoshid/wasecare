@@ -50,6 +50,8 @@
 	<string>近くの涼しい場所を探すために位置情報を使用します。</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>近くの涼しい場所を探すために位置情報を使用します。</string>
+	<key>NSCameraUsageDescription</key>
+    <string>心拍数を測定するためにカメラを使用します。</string>
 
 </dict>
 </plist>

@@ -39,6 +39,11 @@ dependencies:
   latlong2: ^0.9.1
   flutter_map: ^7.0.2
   http: ^1.2.2
+  camera: ^0.11.0+2
+  torch_light: ^1.1.0
+  image: ^4.5.2
+  scidart: ^0.0.2-dev.12
+  web_socket_channel: ^3.0.1
 
 
 dev_dependencies:
